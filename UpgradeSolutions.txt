@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/4889619/command-to-recursively-remove-all-svn-directories-on-windows/12399419#12399419
+
+
+Make a litte batch file with the following line and execute it from the parent folder under which there are .svn directories.
+
+FOR /F "tokens=*" %%G IN ('DIR /B /AD /S *.svn*') DO RMDIR /S /Q "%%G"
+You can also issue the line below straight from the Command Prompt:
+
+FOR /F "tokens=*" %G IN ('DIR /B /AD /S *.svn*') DO RMDIR /S /Q "%G"

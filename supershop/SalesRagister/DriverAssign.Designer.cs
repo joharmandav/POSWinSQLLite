@@ -1,0 +1,180 @@
+﻿namespace supershop
+{
+    partial class DriverAssign
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.lblorderNO = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.dataGridViewDriverAssign = new System.Windows.Forms.DataGridView();
+            this.btnColse = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDriverAssign)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lblorderNO
+            // 
+            this.lblorderNO.AutoSize = true;
+            this.lblorderNO.Location = new System.Drawing.Point(80, 8);
+            this.lblorderNO.Name = "lblorderNO";
+            this.lblorderNO.Size = new System.Drawing.Size(10, 13);
+            this.lblorderNO.TabIndex = 8;
+            this.lblorderNO.Text = "-";
+            this.lblorderNO.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);            
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Invoice No :";
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);           
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.Location = new System.Drawing.Point(2, 1);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.btnColse);
+            this.splitContainer1.Panel1.Controls.Add(this.label1);
+            this.splitContainer1.Panel1.Controls.Add(this.lblorderNO);
+            this.splitContainer1.Panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);            
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.dataGridViewDriverAssign);
+            this.splitContainer1.Size = new System.Drawing.Size(289, 206);
+            this.splitContainer1.SplitterDistance = 28;
+            this.splitContainer1.TabIndex = 9;
+            // 
+            // dataGridViewDriverAssign
+            // 
+            this.dataGridViewDriverAssign.AllowUserToAddRows = false;
+            this.dataGridViewDriverAssign.AllowUserToDeleteRows = false;
+            this.dataGridViewDriverAssign.AllowUserToResizeColumns = false;
+            this.dataGridViewDriverAssign.AllowUserToResizeRows = false;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.dataGridViewDriverAssign.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridViewDriverAssign.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewDriverAssign.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridViewDriverAssign.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewDriverAssign.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridViewDriverAssign.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Times New Roman", 13F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewDriverAssign.DefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridViewDriverAssign.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewDriverAssign.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewDriverAssign.Name = "dataGridViewDriverAssign";
+            this.dataGridViewDriverAssign.ReadOnly = true;
+            this.dataGridViewDriverAssign.RowHeadersVisible = false;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            this.dataGridViewDriverAssign.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridViewDriverAssign.RowTemplate.Height = 44;
+            this.dataGridViewDriverAssign.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewDriverAssign.Size = new System.Drawing.Size(289, 174);
+            this.dataGridViewDriverAssign.TabIndex = 4;
+            this.dataGridViewDriverAssign.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDriverAssign_CellContentClick);
+            // 
+            // btnColse
+            // 
+            this.btnColse.BackColor = System.Drawing.Color.Fuchsia;
+            this.btnColse.FlatAppearance.BorderSize = 0;
+            this.btnColse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Blue;
+            this.btnColse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnColse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnColse.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnColse.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnColse.Location = new System.Drawing.Point(257, 1);
+            this.btnColse.Name = "btnColse";
+            this.btnColse.Size = new System.Drawing.Size(28, 33);
+            this.btnColse.TabIndex = 25;
+            this.btnColse.Text = "X";
+            this.btnColse.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnColse.UseVisualStyleBackColor = false;
+            this.btnColse.Click += new System.EventHandler(this.btnColse_Click);
+            // 
+            // DriverAssign
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.ClientSize = new System.Drawing.Size(293, 209);
+            this.Controls.Add(this.splitContainer1);
+            this.ForeColor = System.Drawing.Color.Blue;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "DriverAssign";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Driver Assign";
+            this.Load += new System.EventHandler(this.DriverAssign_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);           
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDriverAssign)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblorderNO;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.DataGridView dataGridViewDriverAssign;
+        private System.Windows.Forms.Button btnColse;
+    }
+}

@@ -1,0 +1,105 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="supershop.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="psodbConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=psodb.db;Version=3;New=False;Compress=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SQLite&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=psodb.db;Version=3;New=False;Compress=True</Value>
+    </Setting>
+    <Setting Name="SomeProperty" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="APOSSQLConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=(local); Initial Catalog=APOSDB; User ID=sa;Password=sapass123!;&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Sql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=(local); Initial Catalog=APOSDB; User ID=sa;Password=sapass123!;</Value>
+    </Setting>
+    <Setting Name="psodbConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;data source=E:\Data_laptop_1\D_drive\G_Drive\Files_1\dotproject\supershop\up_to_date\POS_4_1_3_1_Resource\CodeC_File_advance_pos\Adv_POS_6_1\POS_Adv_Project_8_1\POS_Source_Code\POS__SQLite\supershop\bin\x86\Debug\psodb.db;version=3;new=False;compress=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SQLite&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">data source=E:\Data_laptop_1\D_drive\G_Drive\Files_1\dotproject\supershop\up_to_date\POS_4_1_3_1_Resource\CodeC_File_advance_pos\Adv_POS_6_1\POS_Adv_Project_8_1\POS_Source_Code\POS__SQLite\supershop\bin\x86\Debug\psodb.db;version=3;new=False;compress=True</Value>
+    </Setting>
+    <Setting Name="psodbConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;data source=E:\Data_laptop_1\D_drive\G_Drive\Files_1\dotproject\supershop\up_to_date\POS_4_1_3_1_Resource\CodeC_File_advance_pos\Adv_POS_6_1\POS_Adv_Project_8_1\POS_Source_Code\POS__SQLite\supershop\bin\x86\Debug\psodb.db&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SQLite&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">data source=E:\Data_laptop_1\D_drive\G_Drive\Files_1\dotproject\supershop\up_to_date\POS_4_1_3_1_Resource\CodeC_File_advance_pos\Adv_POS_6_1\POS_Adv_Project_8_1\POS_Source_Code\POS__SQLite\supershop\bin\x86\Debug\psodb.db</Value>
+    </Setting>
+    <Setting Name="AposMysqlConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=localhost; database=aposmysqldb; uid=root; PASSWORD=1234&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=localhost; database=aposmysqldb; uid=root; PASSWORD=1234</Value>
+    </Setting>
+    <Setting Name="Adv_POS_erp53_com1_WinConnection" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://live.erp53.com/acm/winConnection.asmx</Value>
+    </Setting>
+    <Setting Name="Adv_POS_erp53_com_WinRegistration" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://live.erp53.com/acm/WinRegistration.asmx</Value>
+    </Setting>
+    <Setting Name="DataSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="Userid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="ThemeColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Linen</Value>
+    </Setting>
+    <Setting Name="DataSourceLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="DatabaseLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="UseridLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="PasswordLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NeedToSet</Value>
+    </Setting>
+    <Setting Name="POSWinAppConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-6G5BTPF\SERVER;Initial Catalog=POSWinApp;Persist Security Info=True;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-6G5BTPF\SERVER;Initial Catalog=POSWinApp;Persist Security Info=True;User ID=sa</Value>
+    </Setting>
+    <Setting Name="erp53_15_11_2017ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-6G5BTPF\SERVER;Initial Catalog=digita93_Senegal0901;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-6G5BTPF\SERVER;Initial Catalog=digita93_Senegal0901;User ID=sa</Value>
+    </Setting>
+    <Setting Name="Live_Connection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-6G5BTPF\SERVER;Initial Catalog=digita93_Senegal0901;Persist Security Info=True;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-6G5BTPF\SERVER;Initial Catalog=digita93_Senegal0901;Persist Security Info=True;User ID=sa</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

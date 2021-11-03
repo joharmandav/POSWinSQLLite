@@ -1,0 +1,138 @@
+Changed Logs
+	
+	=Vs 8.4  = 24-10-2017
+		*New - Tab style in SalesRegister Windows
+		*Update - Auto Print after payment receive
+		*Update - Direct sales, Credit sales
+		*Update - Customers window Datagridview style
+		*Update - ReportDetails Grid style
+
+	=Vs 8.3.3    =09-10-2017
+		*New - Purchase history
+		*New - Worksheet records - Employee working hours
+		*Updated - Sales Register Design		
+		*Updated - Bulkupload error Fix
+		*Updated - Some error fix
+				
+	=Vs 8.3.2    =24-06-2017
+		*Item Quantity increase when Same item add
+		*Kitchen Display with print token/receipt
+		*Add Minus button, and category list into Sales register panel
+		*New - Barcode machine
+		*Updated - Customer Due payment history
+
+	=Vs 8.3.1 = 30-05-2017
+		*New - Kitchen Display - for restaurant
+		*New - Customer purchase history
+		*Updated- Multiple transactions synchronize 
+		*New - Counter/Overall Discount
+
+	=Vs 8.3  = 28-03-2017
+		*New - Top Sales Chart
+		*New -  Bar-code creator
+		*Fixed Return calculation
+		*Fixed Adobe dll error
+		*user Block
+		
+	=Vs 8.2  =  14-02-2017
+		*Add dynamic category , Add, Edit , delete category
+		*Expenses module
+		*Return calculation fix
+		*Return figure into Report summary
+		*Reset Data
+		*ReStore Data
+		
+	=Vs 8.1    11-01-2017  
+		*User Can Create Shop Terminal/Branch  
+		*Multiple user and multiple branches support
+		*Item wise discount and VAT/TAX/TPS/TVQ
+		*Add New Summary Report		
+		*Export Excel Save as
+		*Databackup Save as
+
+	=Vs 7.1  = 25-09-2016  
+		*New Stylish Sales Register with Item Image
+		*New Receipt with Crystal Report
+		*Crystal Sales Report 
+		*New add Item with Image 
+		*Create New user with User picture
+		*New Bar-code creator Crystal print
+
+	=Vs 6.2.1  = 22-03-2016  
+		*Bulk Items import option from excel 
+		*Biller , Customer , suppiler Option
+		*New Invoice Print copy
+ 
+
+	=Vs 6.2  = 16-11-2015  
+		*Working with MySQL server.
+		*Add new Customer
+		*Customer list include Sales Register, Add Sales Form.
+		*New General Ledger Report.
+	
+	=Vs 6.1  = 07-08-2015  
+		*Add Global Discount    
+		*Inventory/Add Sale.  
+		*Invoice Print.   
+		*Customer and Biller Module.   
+		*Advance Barcode creator EAN-13, UPCA with help document.   
+		*User profile.   
+		*Today sales info page.
+		
+	=Vs 5.1.1
+		*Working with SQL server. 
+		
+	=Vs 5.1 
+		*Add Due list    
+		*Bar code error fix.
+		
+	=Vs 4.1 
+		*Smooth Sales Register     
+		*increase Sales items   
+		*Add Return Items.
+
+Database Changes
+=====================
+=Vs 8.3.3
+Add new table tbl_workrecords
+Add new table tbl_purchase_history
+Add new view vw_workrecords
+Add new view vw_itemdisplay_sr
+
+=Vs 8.3.2
+Add new table tbl_duepayment
+
+
+=Vs 8.3.1
+Add new column -> status into purchase
+Add new column -> ovdisrate into sales_payment
+Add new column -> vaterate  into sales_payment
+
+=Vs 8.3
+Added a New column -> status into sales_item
+
+=Vs 8.2
+New table tbl_category
+New table tbl_expense
+Added a new column -> disamt , vatamt into return_item
+Alter view vw_general_ledger
+ 
+
+=Vs 8.1
+New table tbl_terminalLocation
+Added a new colunm -> Shopid into usermgt table
+Added a new column -> Shopid into sales_payment table
+Added a new column -> discount, taxapply   into sales_item table
+Added a new columns -> discount, taxapply, Shopid into purchase table
+ 
+
+=Vs 7.1
+usermgt table add new column imagename
+purchase table add new column imagename
+storeconfig table add new column vatrate , disrate , footermsg
+sales_item table add new column itemcode
+
+ 
+
+      
+

@@ -1,0 +1,27 @@
+=> How to sell a product
+   Click =>sales Register button 
+         =>select item 
+         =>or insert item code  or insert item code with Bar-code Reader
+->Firstly  insert Discount % Rate (if applicable) and check Discount
+->and      insert      VAT % Rate (if applicable) and check VAT 
+->select Payment Type
+->insert Paid Amount and customer contact(optional)
+and  press Save Only for only save 
+  or press Save and Print Button For  Save and Print a Receipt
+
+
+     Remove items =>select item and => press Remove item 
+
+=> How to Customize Shop Name,address , and contact 
+    -> config 
+    -> and Save
+
+=> How to add item/product
+    Crl+A
+
+=> How print a sales Report
+   -> salesReport 
+
+=> How to Create Bar-code
+   Item => Bar-code => Select item => 
+   and Press Create barcode => click Barcode created

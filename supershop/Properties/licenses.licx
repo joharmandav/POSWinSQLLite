@@ -1,0 +1,10 @@
+Nevron.UI.WinForm.Controls.NButton, Nevron.Presentation, Version=19.7.25.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.Diagram.WinForm.NDrawingView, Nevron.Diagram.WinForm, Version=19.7.25.12, Culture=neutral, PublicKeyToken=8232c9976c3abc48
+Nevron.UI.WinForm.Docking.NDockingStickerTemplate, Nevron.UI.WinForm.Docking, Version=19.7.25.12, Culture=neutral, PublicKeyToken=446d8963349a628a
+Nevron.UI.WinForm.Controls.NOptionButton, Nevron.Presentation, Version=19.7.25.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NVScrollBar, Nevron.Presentation, Version=19.7.25.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NAnimationSurface, Nevron.Presentation, Version=19.7.25.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NTabControl, Nevron.Presentation, Version=19.7.25.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NColorButton, Nevron.Presentation, Version=19.7.25.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NControlDropDownButton, Nevron.Presentation, Version=19.7.25.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.Chart.WinForm.NChartGridControl, Nevron.Chart.WinForm, Version=19.7.25.12, Culture=neutral, PublicKeyToken=c9bd8998e981e4ee
