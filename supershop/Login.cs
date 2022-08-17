@@ -225,6 +225,7 @@ namespace supershop
             // Generate the full string and return it
             return esb.ToString();
         }
+        //lite
         public static bool LiveConnection()
         {
             if (InternetConnection() == true)
@@ -234,9 +235,9 @@ namespace supershop
                 string IP = ConfigurationManager.AppSettings["IP"];
                
                 erp53.liveme.WinConnection con1 = new erp53.liveme.WinConnection();
-                string strCon = "Data source=" + IP + ";initial catalog=xamfopak_Saas;User id=ERPSaas;password=qI6wB2uI5(nO4$tS0yJ8~cO5(dU2{";// con1.GetConnection(9000093, "A45D365CFD9E,B4B676A1C94D");
-               // string COn = con1.GetConnection(TID, Mac);
-              //  string strCon = EncryptionClass.Decrypt(COn);
+                string strCon = "Data source=" + IP + ";initial catalog=xamfopak_Saas;User id=ERPWebSite;password=wXU8qVa^9YCeWD!dVKH%b==v*%WebSite";// con1.GetConnection(9000093, "A45D365CFD9E,B4B676A1C94D");
+                                                                                                                                                     // string COn = con1.GetConnection(TID, Mac);
+                                                                                                                                                     //  string strCon = EncryptionClass.Decrypt(COn);
 
                 try
                 {
@@ -252,7 +253,7 @@ namespace supershop
                         string DataSource = ds.Split('=')[1].Trim();
                         string Database = db.Split('=')[1].Trim();
                         string Userid = uid.Split('=')[1].Trim();
-                        string Password = PAss.Split('=')[1].Trim();
+                        string Password = "wXU8qVa^9YCeWD!dVKH%b==v*%WebSite";
 
                         Properties.Settings.Default.DataSource = DataSource;
                         Properties.Settings.Default.Database = Database;
